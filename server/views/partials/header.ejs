@@ -19,7 +19,7 @@
   </head>
   <body>
 
-  <nav class="navbar navbar-inverse" role="navigation">
+  <nav class="navbar navbar-dark" style="background-color: #3F729B;" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -28,7 +28,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/"><i class="fa fa-bookmark-o"></i> My Favourite Books</a>
+      <a class="navbar-brand" href="/"><i class="fa-solid fa-book-bookmark"></i>  My Favourite Books</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -41,11 +41,9 @@
         <% } %>
 
           <% if(title == "books") { %>
-          <li class="active"><a href="/books"><i class="fa fa-book fa-lg">
-          </i> Books List</a></li>
+          <li class="active"><a href="/books"><i class="fa-solid fa-book-heart"></i> Books List</a></li>
           <% } else { %>
-            <li><a href="/books"><i class="fa fa-book fa-lg">
-            </i> Books List</a></li>
+            <li><a href="/books"><i class="fa-solid fa-book-heart"></i> Books List</a></li>
           <% } %>
 
       </ul>
