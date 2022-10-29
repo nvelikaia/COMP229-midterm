@@ -7,7 +7,7 @@
   },
 
   "engines": {
-    "node":"^12.00.0",
+    "node":"^12.18.3",
     "npm": "^6.0.0"
   },
 
@@ -57,7 +57,7 @@
   "author": "Nadia Velikaia",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/nvelikaia/COMP229-midterm/issues"
   },
-  "homepage": ""
+  "homepage": "https://github.com/nvelikaia/COMP229-midterm#readme"
 }
