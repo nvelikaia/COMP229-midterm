@@ -9,3 +9,13 @@
 body {
   padding-bottom: 70px;
   }
+.navbar{
+  background-color: #e3f2fd;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color:#ecf5ff;
+}
+
+
